@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="3">Ejercicios de tabla</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td colspan="3">Apartado A</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th colspan="3">Ejercicios de tabla</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td colspan="2">2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td colspan="3">Apartado A</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
+
+<style>
+    table, tr, td{
+          border: solid 1px black;
+          border-collapse: collapse;
+          text-align: center;
+          height: 25px;
+  }
+  table {
+    margin: 20px 50px;
+    float: left;
+    width: 350px;
+  }
+</style>
