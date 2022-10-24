@@ -1,0 +1,20 @@
+body, head {
+    margin: 5px;
+}
+
+header { 
+    width: auto;
+    height: 70px;
+    margin: 0px;
+}
+h1 {
+    margin: 10px;
+    float: left;
+}
+img {
+    margin-top: 10px;
+    float: left;
+}
+p {
+    margin: 0px 10px 50px;
+}
