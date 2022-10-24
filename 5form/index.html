@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Activity DHT</title>
+</head>
+<body>
+    <header>
+        <h1>Validación de teléfono mediante expresiones regulares:</h1>
+        <form action="">
+            <input type="text" for="sub" placeholder="Enter 9 digits of your phone" pattern="^[-+\/\s]*([0-9][-+\/\s]*){9}$" required><br>
+            <input id="sub" type="submit" value="Enviar">
+        </form>
+    </header>
+</body>
+</html>
+<style>
+    input {
+        width: 180px;
+        height: 25px;
+        margin: 0px auto 10px;
+    }
+    #sub {
+        width: 50px;
+    }
+</style>
